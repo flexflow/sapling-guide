@@ -3,7 +3,7 @@
 ## repo-refactor
 
 ```
-curl 'https://raw.githubusercontent.com/flexflow/sapling-guide/repo-refactor.sh' | bash
+curl 'https://raw.githubusercontent.com/flexflow/sapling-guide/master/repo-refactor.sh' | bash
 ```
 
 ## inference

@@ -12,11 +12,11 @@ chmod u+x "$USERBIN/nix-portable"
 ln -s "$USERBIN/nix-portable" "$USERBIN/nix"
 
 cat >>"$HOME/.bashrc" <<'EOF'
---- added by https://github.com/flexflow/sapling-guide
+# --- added by https://github.com/flexflow/sapling-guide
 mkdir -p "/tmp/$USER"
 export NP_LOCATION="/tmp/$USER/"
 module load slurm
----
+# --- end
 EOF
 
 SSH_URL="git@github.com:lockshaw/ff-dev.git"
