@@ -17,6 +17,9 @@ mkdir -p "/tmp/$USER"
 export NP_LOCATION="/tmp/$USER/"
 module load slurm
 # --- end
+
+alias ,node-gpu="srun --time=2:00:00 -N 1 -n 1 -p gpu --pty bash --login"
+alias ,node-cpu="srun --time=2:00:00 -N 1 -n 1 -p cpu --pty bash --login"
 EOF
 
 SSH_URL="git@github.com:lockshaw/ff-dev.git"
